@@ -5,26 +5,26 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'MAPS USING JAVA',
       description: 'The project is a Java-based mapping application using the JXMapViewer library to display and manage geographical waypoints.',
       link: 'https://github.com/RITIKA-SAINI-786/MAPS_USING_JAVA',
-      image: 'JAVA_MAPS',
-      Video:'https://drive.google.com/file/d/1w8vyxldBBnN4i2QAiNYzYkX_OrVkNjy1/view?usp=drive_link',
+      image: 'JAVA_MAPS.jpg',
+      video: 'https://drive.google.com/file/d/1w8vyxldBBnN4i2QAiNYzYkX_OrVkNjy1/preview',
     },
     {
       title: 'Bank Management System',
       description: 'This Bank Management System is a comprehensive Java-based application designed to manage bank operations efficiently.',
       link: 'https://github.com/RITIKA-SAINI-786/BANK_MANAGEMENT_SYSTEM',
       image: 'Bank.jpg',
-      video: 'https://drive.google.com/file/d/1TKPIsTzpm2-HghS4bbPJL1xRTKKWXDan/view?usp=sharing',
+      video: 'https://drive.google.com/file/d/1TKPIsTzpm2-HghS4bbPJL1xRTKKWXDan/preview',
     },
     {
       title: 'Forest Fire Prediction System',
-      description: 'A project focused on predicting forest fires using Oxygen , Temperature and Humidity level of the particular region and with skills of full-stack development.',
+      description: 'A project focused on predicting forest fires using Oxygen, Temperature, and Humidity levels of the particular region and with skills of full-stack development.',
       link: 'https://github.com/RITIKA-SAINI-786/Forest_Fire_Prediction_System',
       image: 'Forest_Fire.png',
-      video: 'https://drive.google.com/file/d/1x9GhrzDpIDnrrKrG2jggiMidhOpB6ttG/view?usp=sharing',
+      video: 'https://drive.google.com/file/d/1x9GhrzDpIDnrrKrG2jggiMidhOpB6ttG/preview',
     },
     {
-      title:'Portfolio',
-      description: 'A dynamic and visually appealing personal portfolio showcasing skills, projects, and achievements. Developed using HTML, CSS, and JavaScript',
+      title: 'Portfolio',
+      description: 'A dynamic and visually appealing personal portfolio showcasing skills, projects, and achievements. Developed using HTML, CSS, and JavaScript.',
       image: 'portfolio.jpg',
     },
   ];
@@ -34,24 +34,22 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       title: 'Vice President, Student Council, CCET',
       description: 'Serving as the Student Council Vice President in my college (2024 - 2025).',
-     image: 'council.png',
+      image: 'council.png',
     },
-   
     {
       title: 'Executive Member, ArtStrong Club',
       description: 'Contributed to organizing and participating in club activities and events.',
-      image : 'artstrong.jpg',
+      image: 'artstrong.jpg',
     },
     {
       title: 'Volunteer, Youth Against Injustice Foundation',
-      description: 'Volunteered for various social initiatives , have organised various online awareness sessions and campaigns.',
+      description: 'Volunteered for various social initiatives, organized online awareness sessions and campaigns.',
       image: 'volunteer.jpg',
     },
     {
       title: 'NCC Cadet',
       description: 'Participated in National Cadet Corps (NCC) activities and training sessions.',
       image: 'NCC.jpg',
-      
     },
   ];
 
@@ -63,23 +61,22 @@ document.addEventListener('DOMContentLoaded', () => {
       image: 'Ideathon.jpg',
     },
     {
-      title: 'NCC Caded with A-Certificate',
+      title: 'NCC Cadet with A-Certificate',
       description: 'Earned the NCC A Certificate after successfully passing the A Certificate Exam and completing the required camp training.',
       image: 'NCC.jpg',
     },
-   
     {
       title: 'College Level Scholarship',
       description: 'Received a full-fee scholarship for the first year of graduation at CCET College under a meritorious scheme provided by the government.',
       image: 'scholarship.png',
     },
     {
-      title: 'Scholar of  Bhai JaitaJee Foundation India ',
+      title: 'Scholar of Bhai JaitaJee Foundation India',
       description: 'Awarded prestigious scholarships from BJF India for academic excellence during 11th and 12th grades in Chandigarh, following a rigorous selection process that included a written test and two comprehensive interview rounds.',
       image: 'bjf.jpg',
     },
     {
-      title: 'Scholar at Jawahar Navodaya Vidyalaya, operating under the direct oversight of the central government.',
+      title: 'Scholar at Jawahar Navodaya Vidyalaya',
       description: 'Secured admission to Jawahar Navodaya Vidyalaya (JNV) Najochak Pathankot after successfully clearing the entrance test for 6th grade. Demonstrated exceptional academic performance throughout my tenure, ranking as the top student in my class from 7th to 10th grade, with my name proudly engraved on the honor roll.',
       image: 'jnv.png',
     },
@@ -103,10 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (project.video) {
       projectHTML += `
         <div class="mt-4">
-          <video controls class="w-full rounded-md">
-            <source src="${project.video}" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
+          <iframe src="${project.video}" width="100%" height="315" frameborder="0" allowfullscreen></iframe>
         </div>
       `;
     }
