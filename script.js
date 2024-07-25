@@ -23,9 +23,16 @@ document.addEventListener('DOMContentLoaded', () => {
       video: 'https://drive.google.com/file/d/1x9GhrzDpIDnrrKrG2jggiMidhOpB6ttG/preview',
     },
     {
-      title: 'Portfolio',
-      description: 'A dynamic and visually appealing personal portfolio showcasing skills, projects, and achievements. Developed using HTML, CSS, and JavaScript.',
-      image: 'portfolio.jpg',
+      title: 'Mental Fitness Tracker',
+      description: 'This project focuses on tracking mental fitness using various metrics and visualizations. It aims to help users monitor their mental well-being over time through interactive charts and data analytics.',
+      link: 'https://colab.research.google.com/drive/1EJTzTb8j2LfyhsICZwd366odUuATjvHx?usp=sharing',
+      image: 'compare.jpg'
+    },
+    {
+      title: 'Graph Explore - Interactive DFS and BFS Visualization',
+      description: 'This project implements DFS and BFS graph traversal algorithms and visualizes the graph using NetworkX and Matplotlib. It features an interactive UI with ipywidgets for dynamic traversal visualization.',
+      link: 'https://colab.research.google.com/drive/18iPdzklu_LgYe95M3HTQ3-FIeYdcJ30j?usp=sharing',
+      image: 'graph.jpg'
     },
   ];
 
