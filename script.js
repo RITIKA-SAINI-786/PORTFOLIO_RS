@@ -44,6 +44,11 @@ document.addEventListener('DOMContentLoaded', () => {
       image: 'council.png',
     },
     {
+      title: 'Treasurer, Annual College Fest (APRATIM-2K23)',
+      description: 'Managed financial aspects for the college fest (11/2023).',
+      image: 'treasurer.jpg',
+    },
+    {
       title: 'Executive Member, ArtStrong Club',
       description: 'Contributed to organizing and participating in club activities and events.',
       image: 'artstrong.jpg',
