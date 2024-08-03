@@ -92,6 +92,11 @@ document.addEventListener('DOMContentLoaded', () => {
       description: 'Secured admission to Jawahar Navodaya Vidyalaya (JNV) Najochak Pathankot after successfully clearing the entrance test for 6th grade. Demonstrated exceptional academic performance throughout my tenure, ranking as the top student in my class from 7th to 10th grade, with my name proudly engraved on the honor roll.',
       image: 'jnv.png',
     },
+    {
+      title: 'National Rank Holder in MTSE',
+      description: 'National Rank  8914/119537 Holder in MTSE 2017',
+      image: 'MTSE.png',
+    },
   ];
 
   // Load projects dynamically
