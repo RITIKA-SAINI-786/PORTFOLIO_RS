@@ -34,6 +34,12 @@ document.addEventListener('DOMContentLoaded', () => {
       link: 'https://colab.research.google.com/drive/18iPdzklu_LgYe95M3HTQ3-FIeYdcJ30j?usp=sharing',
       image: 'graph.jpg'
     },
+     {
+      title: 'Dumps',
+      description: 'This project implements DBMS , SQL Queries',
+      link: 'https://github.com/RITIKA-SAINI-786/Dumps_RS/tree/main/Dump20231012',
+
+    },
   ];
 
   // Sample responsibilities data
