@@ -38,8 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Dumps',
       description: 'This project implements DBMS , SQL Queries',
       link: 'https://github.com/RITIKA-SAINI-786/Dumps_RS/tree/main/Dump20231012',
-      image : 'dumps.png',
-
+      image: 'dumps.png',
     },
   ];
 
@@ -128,7 +127,6 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
       `;
     }
-
     projectElement.innerHTML = projectHTML;
     projectList.appendChild(projectElement);
   });
