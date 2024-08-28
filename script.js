@@ -35,8 +35,8 @@ document.addEventListener('DOMContentLoaded', () => {
       image: 'graph.jpg'
     },
      {
-      title: 'Dumps',
-      description: 'This project implements DBMS , SQL Queries',
+      title: 'Udemy Database Management System',
+      description: 'Developed a MySQL-based database for an online learning platform, handling course management, user data, transactions, and multimedia content. Designed and optimized tables for categories, instructors, and curriculum details, ensuring data integrity and efficient query performance.',
       link: 'https://github.com/RITIKA-SAINI-786/Dumps_RS/tree/main/Dump20231012',
       image: 'dumps.png'
     },
