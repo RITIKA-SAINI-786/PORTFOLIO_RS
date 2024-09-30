@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ritika Saini's Portfolio</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <script defer src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- Font Awesome for icons -->
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pO3GgAQ/akO90c3TJ5RgGzFZONLZJRqz1L5TZlFw0c/kdyMqWnwk8ilS/qJYqPnHgV8Xx3N3s0XJ6CplbPU1ag==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script defer src="script.js"></script>
   <style>
     .hero-bg {
@@ -55,11 +55,14 @@
   </header>
   
   <main class="pt-20">
-    <!-- Introduction Section -->
-    <section id="Introduction" class="my-16">
-      <div class="container mx-auto px-6 text-center">
+   <!-- Introduction Section -->
+    <section id="introduction" class="hero-bg py-16 text-center text-white">
+      <div class="container mx-auto px-6">
         <h2 class="text-4xl font-bold mb-4">Hello, I'm Ritika Saini</h2>
-        <p class="text-xl">I am a final-year B.E. student in Computer Science at Chandigarh College of Engineering and Technology with a CGPA of 8.53. I have hands-on experience in Machine Learning, Java, Data Structures, and Cloud Computing. My goal is to leverage my skills to build impactful, scalable solutions. Passionate about technology and learning, I’m excited about exploring new opportunities to contribute meaningfully to innovative projects.</p>
+        <div class="flex justify-center mb-8">
+          <img src="pic.jpg" alt="Ritika Saini" class="rounded-full w-48 h-48 object-cover shadow-lg">
+        </div>
+        <p class="text-xl leading-relaxed mx-auto max-w-3xl">I am a final-year B.E. Computer Science student at Chandigarh College of Engineering and Technology with a CGPA of 8.53 (till 6th sem). Passionate about Java,DBMS, DSA, and Machine Learning, I am dedicated to applying these skills in innovative ways and contributing to impactful projects and teams.</p>
       </div>
     </section>
     
@@ -139,64 +142,56 @@
           </div>
           <div class="bg-white p-6 rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105">
             <i class="fas fa-cogs text-4xl mb-4 text-red-600"></i>
-            <h3 class="text-2xl font-semibold mb-2">Languages Known </h3>
+            <h3 class="text-2xl font-semibold mb-2"> Languages Known</h3>
             <p>English , Hindi , Punjabi </p>
           </div>
         </div>
       </div>
     </section>
-    
-    <!-- Projects Section -->
-    <section id="projects" class="my-16">
-      <div class="container mx-auto px-6">
-        <h2 class="text-3xl font-bold text-center mb-8">Projects</h2>
-        <div id="project-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <section id="publications">
+        <h2>Publications</h2>
+        <div class="publication">
+            <h3>Co-author of "Chaotic Watermarking for Tamper Detection"</h3>
+            <p>Published in <strong>Digital Forensics and Cyber Crime Investigation: Recent Advances and Future Directions</strong>, Routledge. 
+                <a href="https://www.routledge.com/Digital-Forensics-and-Cyber-Crime-Investigation-Recent-Advances-and-Future-Directions/AbdEl-Latif-Tawalbeh-Mohanty-Gupta-Psannis/p/book/9781032075396?srsltid=AfmBOorYcs3ixVOVz0IXCacOfPIFF1Q6zwt9D69vFu0" target="_blank">View Publication</a>
+            </p>
         </div>
-      </div>
     </section>
     
-     <!-- Achievements & Responsibilities Section -->
-  <section id="responsibility-achievement" class="py-16 bg-indigo-50">
-    <div class="container mx-auto px-6">
-      <h2 class="text-4xl font-bold text-center mb-12">Achievements & Responsibilities</h2>
-      <div class="flex flex-wrap justify-between">
-        
-        <!-- Positions of Responsibility Column -->
-        <div class="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
-          <h3 class="text-3xl font-semibold mb-6 text-center lg:text-left">Positions of Responsibility</h3>
-          <div id="responsibility-list" class="space-y-6"></div>
-        </div>
-
-        <!-- Achievements Column -->
-        <div class="w-full lg:w-1/2 px-4">
-          <h3 class="text-3xl font-semibold mb-6 text-center lg:text-left">Achievements</h3>
-          <div id="achievement-list" class="space-y-6"></div>
-        </div>
+  <!-- Contact Section -->
+<section id="Contact" class="py-16 text-center">
+  <div class="container mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-8">Contact Me</h2>
+    <div class="space-y-6">
+      <div class="bg-white p-6 rounded-lg shadow-lg">
+        <h3 class="text-2xl font-semibold mb-2">LinkedIn</h3>
+        <a href="https://linkedin.com/in/ritika-saini-707055228/" class="text-blue-600 hover:underline">Linkedin_Profile:linkedin.com/in/ritika-saini-707055228/</a><br>
+        <a href="https://github.com/RITIKA-SAINI-786" class="text-blue-600 hover:underline">Github_repo:https://github.com/RITIKA-SAINI-786</a>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-lg">
+        <h3 class="text-2xl font-semibold mb-2">Email</h3>
+        <p><a href="mailto:ritikasaini112003@gmail.com" class="text-blue-600 hover:underline">ritikasaini112003@gmail.com</a></p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-lg">
+        <h3 class="text-2xl font-semibold mb-2">Contact Number</h3>
+        <p class="text-gray-700">8627828501</p>
       </div>
     </div>
-  </section>
-    
-    <!-- Contact Section -->
-    <section id="contact" class="my-16 bg-gray-200 py-12">
-      <div class="container mx-auto px-6">
-        <h2 class="text-3xl font-bold text-center mb-8">Contact</h2>
-        <form id="contact-form" class="max-w-lg mx-auto space-y-6">
-          <div>
-            <label for="name" class="block text-sm font-medium">Name</label>
-            <input type="text" id="name" name="name" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm" required>
-          </div>
-          <div>
-            <label for="email" class="block text-sm font-medium">Email</label>
-            <input type="email" id="email" name="email" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm" required>
-          </div>
-          <div>
-            <label for="message" class="block text-sm font-medium">Message</label>
-            <textarea id="message" name="message" rows="4" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm" required></textarea>
-          </div>
-          <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded-md">Send</button>
-        </form>
+    <form id="contact-form" class="mt-8 max-w-md mx-auto">
+      <div class="mb-4">
+        <input type="text" id="name" placeholder="Your Name" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-indigo-600">
       </div>
-    </section>
+      <div class="mb-4">
+        <input type="email" id="email" placeholder="Your Email" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-indigo-600">
+      </div>
+      <div class="mb-4">
+        <textarea id="message" rows="4" placeholder="Your Message" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-indigo-600"></textarea>
+      </div>
+      <button type="submit" class="w-full bg-indigo-600 text-white py-2 rounded-md hover:bg-indigo-700 transition duration-300">Send Message</button>
+    </form>
+  </div>
+</section>
+
   </main>
   
   <footer class="bg-white shadow py-4">
