@@ -1,263 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ritika Saini's Portfolio</title>
-   <style>
-       * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-header {
-    position: relative;
-    background: url('path/to/hero_image.jpg') no-repeat center center/cover;
-    height: 70vh;
-    color: white;
-    text-align: center;
-}
-
-.hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-}
-
-h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-}
-
-.cta-button {
-    background: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav {
-    background: #333;
-}
-
-nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 10px 0;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-section {
-    padding: 20px;
-    margin: 10px 0;
-    background: white;
-    border-radius: 5px;
-}
-
-h2 {
-    margin-bottom: 15px;
-}
-
-.Skill-bar {
-    display: flex;
-    flex-direction: column;
-}
-
-.Skill {
-    background: #007bff;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    margin: 5px 0;
-    transition: width 0.4s ease;
-}
-
-.project-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
-}
-
-.project-card {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 15px;
-    text-align: center;
-    transition: transform 0.3s;
-}
-
-.project-card:hover {
-    transform: scale(1.05);
-}
-
-.project-image {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #333;
-    color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-form input,
-form textarea {
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-form button {
-    background: #007bff;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-form button:hover {
-    background: #0056b3;
-}
-
-   </style>
-    <script src="script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ritika Saini's Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script defer src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- Font Awesome for icons -->
+  <script defer src="script.js"></script>
 </head>
-<body>
-    <header>
-        <div class="hero">
-            <h1>Ritika Saini</h1>
-            <p>Final Year Computer Science Student | Machine Learning Enthusiast</p>
-            <a href="#projects" class="cta-button">View My Work</a>
-        </div>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Education">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#Achievements">Projects</a></li>
-            <li><a href="#Responsibility">Projects</a></li>
-            <li><a href="#languages">Languages</a></li>
-            <li><a href="#Contact">Contact</a></li>
+<body class="bg-gray-100 text-gray-900">
+  <header class="bg-white shadow-md fixed w-full top-0 z-10">
+    <div class="container mx-auto py-4 px-6 flex justify-between items-center">
+      <h1 class="text-3xl font-bold">Ritika Saini</h1>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="#introduction" class="hover:text-blue-500">Introduction</a></li>
+          <li><a href="#skills" class="hover:text-blue-500">Skills</a></li>
+          <li><a href="#projects" class="hover:text-blue-500">Projects</a></li>
+          <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
         </ul>
-    </nav>
-
-    <section id="About">
-        <h2>About Me</h2>
-        <p>I'm a passionate computer science student with a focus on machine learning and software development. I aim to create innovative solutions that make a difference.</p>
+      </nav>
+    </div>
+  </header>
+  
+  <main class="pt-20">
+    <!-- Introduction Section -->
+    <section id="introduction" class="my-16">
+      <div class="container mx-auto px-6 text-center">
+        <h2 class="text-4xl font-bold mb-4">Hello, I'm Ritika Saini</h2>
+        <p class="text-xl">I am a final-year B.E. student in Computer Science at Chandigarh College of Engineering and Technology with a CGPA of 8.33. I have hands-on experience in Machine Learning, Java, Data Structures, and Cloud Computing. My goal is to leverage my skills to build impactful, scalable solutions. Passionate about technology and learning, I’m excited about exploring new opportunities to contribute meaningfully to innovative projects.</p>
+      </div>
     </section>
-
-    <section id="Skills">
-        <h2>Skills</h2>
-        <div class="Skill-bar">
-            <div class="Skill" style="width: 90%;">Java</div>
-            <div class="Skill" style="width: 70%;">DSA</div>
-            <div class="Skill" style="width: 70%;">DBMS</div>
-            <div class="Skill" style="width: 85%;">Machine Learning</div>
-            <div class="Skill" style="width: 75%;">SQL</div>
-            <div class="Skill" style="width: 80%;">Python</div>
-            <div class="Skill" style="width: 85%;">C++</div>
-            
-            
-            
+    
+    <!-- Skills Section -->
+    <section id="skills" class="my-16 bg-gray-200 py-12">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-8">Skills</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <i class="fas fa-code text-blue-500 text-3xl mb-4"></i>
+            <h3 class="text-2xl font-semibold mb-2">Java Programming</h3>
+            <p>Advanced proficiency in Java with hands-on experience in developing and managing applications, including projects like Bank Management System.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <i class="fas fa-cogs text-blue-500 text-3xl mb-4"></i>
+            <h3 class="text-2xl font-semibold mb-2">Data Structures & Algorithms</h3>
+            <p>Strong foundation in problem-solving, implementing efficient algorithms, and optimizing solutions for competitive programming.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <i class="fas fa-robot text-blue-500 text-3xl mb-4"></i>
+            <h3 class="text-2xl font-semibold mb-2">Machine Learning</h3>
+            <p>Experienced in building machine learning models with Python for data-driven solutions, such as forest fire prediction systems.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <i class="fas fa-cloud text-blue-500 text-3xl mb-4"></i>
+            <h3 class="text-2xl font-semibold mb-2">Cloud Computing</h3>
+            <p>Proficient in IBM Cloud and leveraging cloud technologies for scalable and secure web applications.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <i class="fas fa-database text-blue-500 text-3xl mb-4"></i>
+            <h3 class="text-2xl font-semibold mb-2">SQL & Database Management</h3>
+            <p>Experienced in managing databases, designing schemas, and implementing SQL queries for projects such as Zomnato using MySQL.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <i class="fas fa-desktop text-blue-500 text-3xl mb-4"></i>
+            <h3 class="text-2xl font-semibold mb-2">Web Development</h3>
+            <p>Proficient in HTML, CSS, JavaScript, and Flask to build interactive, responsive websites and applications.</p>
+          </div>
         </div>
+      </div>
     </section>
-
-    <section id="Projects">
-        <h2>Projects</h2>
-        <div class="project-container">
-            <div class="project-card">
-                <img src="Bank.jpg" alt="Bank Management System" class="project-image">
-                <h3>Bank Management System</h3>
-                <p>A Java-based system for managing banking operations, including login, signup, and transactions.</p>
-                <p><strong>Project Link:</strong> <a href="link_to_bank_management_system" target="_blank">View Project</a></p>
-                <p><strong>Video Link:</strong> <a href="https://drive.google.com/file/d/13l5y9prEtCD7pLTR7ryfFkWbhirX4t7l/view?usp=drive_link" target="_blank">Watch Video</a></p>
-            </div>
-            <div class="project-card">
-                <img src="Forest_Fire.jpg" alt="Forest Fire Prediction" class="project-image">
-                <h3>Forest Fire Prediction</h3>
-                <p>A machine learning tool in Python and Flask for predicting forest fires by analyzing environmental factors.</p>
-                <p><strong>Project Link:</strong> <a href="link_to_forest_fire_prediction" target="_blank">View Project</a></p>
-                <p><strong>Video Link:</strong> <a href="https://drive.google.com/file/d/1x9GhrzDpIDnrrKrG2jggiMidhOpB6ttG/view?usp=drive_link" target="_blank">Watch Video</a></p>
-            </div>
-            
-            
+    
+    <!-- Projects Section -->
+    <section id="projects" class="my-16">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-8">Projects</h2>
+        <div id="project-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-2xl font-semibold mb-2">Bank Management System</h3>
+            <p>A robust system developed in Java that manages various bank operations like login, signup, PIN change, and transactions with a user-friendly interface.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-2xl font-semibold mb-2">Fire Prediction System</h3>
+            <p>An ML-based tool built with Flask that predicts the likelihood of forest fires based on weather data such as temperature, humidity, and oxygen levels.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-2xl font-semibold mb-2">Maps Using JAVA</h3>
+            <p>A Java-based geographic application using JXMapViewer that displays and manages waypoints on a map for navigational purposes.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-2xl font-semibold mb-2">Dumps Using SQL</h3>
+            <p>SQL-based project involving the creation and management of databases, including tables for categories, users, purchases, and more, for a mock platform.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-2xl font-semibold mb-2">Compose and Program Music</h3>
+            <p>Developed using Python and the EarSketch library, this project allows users to create musical compositions by programming in Python.</p>
+          </div>
         </div>
+      </div>
     </section>
-
-    <section id="Education">
-        <h2>Education</h2>
-        <p><strong>B.E. in Computer Science and Engineering</strong> (2021–2025)<br>Chandigarh College of Engineering and Technology<br>CGPA: 8.53(till 6th sem)<br>2025</p>
-        <p><strong>Intermediate (+2)</strong> (2020–2021)<br>SSIS Chandigarh<br>91%<br>2021</p>
-        <p><strong>Matriculation</strong> (2018–2019)<br>JNV Najochak Pathankot<br> 95.4%<br>2019</p>
-    </section>
-
-    <section id="Languages">
-        <h2>Languages Known</h2>
-        <ul>
-            <li>English</li>
-            <li>Hindi</li>
-            <li>Punjabi</li>
-        </ul>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form id="contact-form">
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="my-16 bg-gray-200 py-12">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-8">Contact</h2>
+        <form id="contact-form" class="max-w-lg mx-auto space-y-6">
+          <div>
+            <label for="name" class="block text-sm font-medium">Name</label>
+            <input type="text" id="name" name="name" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm" required>
+          </div>
+          <div>
+            <label for="email" class="block text-sm font-medium">Email</label>
+            <input type="email" id="email" name="email" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm" required>
+          </div>
+          <div>
+            <label for="message" class="block text-sm font-medium">Message</label>
+            <textarea id="message" name="message" rows="4" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm" required></textarea>
+          </div>
+          <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded-md">Send</button>
         </form>
-        <p>Email: <a href="mailto:ritikasaini112003@gmail.com">ritikasaini112003@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/ritika-saini-707055228/" target="_blank">linkedin.com/in/ritika-saini-707055228</a></p>
+      </div>
     </section>
-
-    <footer>
-        <p>&copy; 2024 Ritika Saini. All Rights Reserved.</p>
-    </footer>
+  </main>
+  
+  <footer class="bg-white shadow py-4">
+    <div class="container mx-auto px-6 text-center">
+      &copy; 2024 Ritika Saini. All rights reserved.
+    </div>
+  </footer>
 </body>
 </html>
