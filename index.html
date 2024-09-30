@@ -5,6 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ritika Saini's Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0056b3;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #007bff;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            transition: background-color 0.3s;
+        }
+        nav ul li a:hover {
+            background-color: #0056b3;
+        }
+        section {
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+        }
+        h2 {
+            color: #0056b3;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 10px;
+        }
+        .achievement, .position {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+        .achievement-photo, .position-photo {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-right: 15px;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0056b3;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -39,38 +111,50 @@
         
         <div class="achievement">
             <img src="path/to/photo-mtse.jpg" alt="National Rank Holder in MTSE" class="achievement-photo">
-            <h3>National Rank Holder in MTSE</h3>
-            <p>National Rank 8914/119537 Holder in MTSE 2017.</p>
+            <div>
+                <h3>National Rank Holder in MTSE</h3>
+                <p>National Rank 8914/119537 Holder in MTSE 2017.</p>
+            </div>
         </div>
 
         <div class="achievement">
             <img src="path/to/photo-jnv.jpg" alt="Scholar at Jawahar Navodaya Vidyalaya" class="achievement-photo">
-            <h3>Scholar at Jawahar Navodaya Vidyalaya</h3>
-            <p>Secured admission to Jawahar Navodaya Vidyalaya (JNV) Najochak Pathankot after successfully clearing the entrance test for 6th grade. Demonstrated exceptional academic performance throughout my tenure, ranking as the top student in my class from 7th to 10th grade, with my name proudly engraved on the honor roll.</p>
+            <div>
+                <h3>Scholar at Jawahar Navodaya Vidyalaya</h3>
+                <p>Secured admission to Jawahar Navodaya Vidyalaya (JNV) Najochak Pathankot after successfully clearing the entrance test for 6th grade. Demonstrated exceptional academic performance throughout my tenure, ranking as the top student in my class from 7th to 10th grade, with my name proudly engraved on the honor roll.</p>
+            </div>
         </div>
 
         <div class="achievement">
             <img src="path/to/photo-bjf.jpg" alt="Scholar of Bhai Jaita Jee Foundation India" class="achievement-photo">
-            <h3>Scholar of Bhai Jaita Jee Foundation India</h3>
-            <p>Awarded prestigious scholarships from BJF India for academic excellence during 11th and 12th grades in Chandigarh, following a rigorous selection process that included a written test and two comprehensive interview rounds.</p>
+            <div>
+                <h3>Scholar of Bhai Jaita Jee Foundation India</h3>
+                <p>Awarded prestigious scholarships from BJF India for academic excellence during 11th and 12th grades in Chandigarh, following a rigorous selection process that included a written test and two comprehensive interview rounds.</p>
+            </div>
         </div>
 
         <div class="achievement">
             <img src="path/to/photo-college-scholarship.jpg" alt="College Level Scholarship" class="achievement-photo">
-            <h3>College Level Scholarship</h3>
-            <p>Received a full-fee scholarship for the first year of graduation at CCET College under a meritorious scheme provided by the government.</p>
+            <div>
+                <h3>College Level Scholarship</h3>
+                <p>Received a full-fee scholarship for the first year of graduation at CCET College under a meritorious scheme provided by the government.</p>
+            </div>
         </div>
 
         <div class="achievement">
             <img src="path/to/photo-ncc-a.jpg" alt="NCC Cadet with A-Certificate" class="achievement-photo">
-            <h3>NCC Cadet with A-Certificate</h3>
-            <p>Earned the NCC A Certificate after successfully passing the A Certificate Exam and completing the required camp training.</p>
+            <div>
+                <h3>NCC Cadet with A-Certificate</h3>
+                <p>Earned the NCC A Certificate after successfully passing the A Certificate Exam and completing the required camp training.</p>
+            </div>
         </div>
 
         <div class="achievement">
             <img src="path/to/photo-ideathon.jpg" alt="Ideathon" class="achievement-photo">
-            <h3>Ideathon</h3>
-            <p>Our team INNOVATE4CHANGE achieved second place in the IDEATHON competition held at CCET College by developing an innovative game designed to motivate students to study through engaging and interactive gameplay.</p>
+            <div>
+                <h3>Ideathon</h3>
+                <p>Our team INNOVATE4CHANGE achieved second place in the IDEATHON competition held at CCET College by developing an innovative game designed to motivate students to study through engaging and interactive gameplay.</p>
+            </div>
         </div>
     </section>
 
@@ -79,26 +163,34 @@
 
         <div class="position">
             <img src="path/to/photo-vp-student-council.jpg" alt="Vice President, Student Council" class="position-photo">
-            <h3>Vice President, Student Council, CCET</h3>
-            <p>Serving as the Student Council Vice President in my college (2024 - 2025).</p>
+            <div>
+                <h3>Vice President, Student Council, CCET</h3>
+                <p>Serving as the Student Council Vice President in my college (2024 - 2025).</p>
+            </div>
         </div>
 
         <div class="position">
             <img src="path/to/photo-treasurer-fest.jpg" alt="Treasurer, Annual College Fest" class="position-photo">
-            <h3>Treasurer, Annual College Fest (APRATIM-2K23)</h3>
-            <p>Managed financial aspects for the college fest (11/2023).</p>
+            <div>
+                <h3>Treasurer, Annual College Fest (APRATIM-2K23)</h3>
+                <p>Managed financial aspects for the college fest (11/2023).</p>
+            </div>
         </div>
 
         <div class="position">
             <img src="path/to/photo-youth-against-injustice.jpg" alt="Volunteer, Youth Against Injustice Foundation" class="position-photo">
-            <h3>Volunteer, Youth Against Injustice Foundation</h3>
-            <p>Volunteered for various social initiatives, organized online awareness sessions and campaigns.</p>
+            <div>
+                <h3>Volunteer, Youth Against Injustice Foundation</h3>
+                <p>Volunteered for various social initiatives, organized online awareness sessions and campaigns.</p>
+            </div>
         </div>
 
         <div class="position">
             <img src="path/to/photo-ncc-cadet.jpg" alt="NCC Cadet" class="position-photo">
-            <h3>NCC Cadet</h3>
-            <p>Participated in National Cadet Corps (NCC) activities and training sessions.</p>
+            <div>
+                <h3>NCC Cadet</h3>
+                <p>Participated in National Cadet Corps (NCC) activities and training sessions.</p>
+            </div>
         </div>
     </section>
 
@@ -107,17 +199,21 @@
         <div class="publication">
             <h3>Co-author of "Chaotic Watermarking for Tamper Detection"</h3>
             <p>Published in <strong>Digital Forensics and Cyber Crime Investigation: Recent Advances and Future Directions</strong>, Routledge. 
-                <a href="https://www.routledge.com/Digital-Forensics-and-Cyber-Crime-Investigation-Recent-Advances-and-Future-Directions/AbdEl-Latif-Tawalbeh-Mohanty-Gupta-Psannis/p/book/9781032075396?srsltid=AfmBOorYcs3ixVOVz0IXI7YMOe9SplY0idzW8JIHMkwRjVa7FpTBk06Q" target="_blank">View Publication</a>
+                <a href="https://www.routledge.com/Digital-Forensics-and-Cyber-Crime-Investigation-Recent-Advances-and-Future-Directions/AbdEl-Latif-Tawalbeh-Mohanty-Gupta-Psannis/p/book/9781032075396?srsltid=AfmBOorYcs3ixVOVz0IXCacOfPIFF1Q6zwt9D69vFu0" target="_blank">View Publication</a>
             </p>
         </div>
     </section>
 
-    <footer id="contact">
+    <section id="contact">
         <h2>Contact Me</h2>
+        <p>If you would like to reach out, feel free to contact me via:</p>
         <p>Email: <a href="mailto:ritikasaini112003@gmail.com">ritikasaini112003@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/ritika-saini-707055228/">linkedin.com/in/ritika-saini-707055228</a></p>
-    </footer>
+        <p>Phone: <a href="tel:+918627828501">8627828501</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/ritika-saini-707055228" target="_blank">Ritika Saini</a></p>
+    </section>
 
-    <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2024 Ritika Saini. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
