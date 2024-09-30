@@ -1,155 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ritika Saini's Portfolio</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <script defer src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- Font Awesome for icons -->
-  <script defer src="script.js"></script>
-  <style>
-    .hero-bg {
-      background: linear-gradient(to right, #ddd049, #5258bd, #ffaf7b);
-    }
-    .section-bg {
-      background: #a2e9dc;
-    }
-    .rating {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 10px;
-    }
-    .star {
-      font-size: 2rem;
-      color: #d1d5db;
-      cursor: pointer;
-    }
-    .star.selected {
-      color: #fbbf24;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritika Saini's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-gray-100 text-gray-900">
-  <!-- Header -->
-  <header class="bg-gradient-to-r from-indigo-600 to-purple-700 shadow-md fixed w-full top-0 z-10">
-    <div class="container mx-auto py-4 px-6 flex justify-between items-center">
-      <h1 class="text-3xl font-bold text-white">Ritika Saini</h1>
-      <nav>
-        <ul class="flex space-x-6">
-          <li><a href="#introduction" class="text-white hover:text-yellow-300">Introduction</a></li>
-          <li><a href="#skills" class="text-white hover:text-yellow-300">Skills</a></li>
-          <li><a href="#projects" class="text-white hover:text-yellow-300">Projects</a></li>
-          <li><a href="#education" class="text-white hover:text-yellow-300">Education</a></li>
-          <li><a href="#responsibility-achievement" class="text-white hover:text-yellow-300">Responsibility</a></li>
-          <li><a href="#contact" class="text-white hover:text-yellow-300">Contact</a></li>
+<body>
+    <header>
+        <h1>Ritika Saini</h1>
+        <p>Final Year Computer Science Student | Machine Learning Enthusiast | Tech Innovator</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#positions">Positions of Responsibility</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-      </nav>
-    </div>
-  </header>
-  
-  <main class="pt-16">
-    <!-- Introduction Section -->
-    <section id="introduction" class="hero-bg py-16 text-center text-white">
-      <div class="container mx-auto px-6">
-        <h2 class="text-4xl font-bold mb-4">Hello, I'm Ritika Saini</h2>
-        <div class="flex justify-center mb-8">
-          <img src="pic.jpg" alt="Ritika Saini" class="rounded-full w-48 h-48 object-cover shadow-lg">
-        </div>
-        <p class="text-xl leading-relaxed mx-auto max-w-3xl">I am a final-year B.E. Computer Science student at Chandigarh College of Engineering and Technology with a CGPA of 8.53 (till 6th sem). Passionate about Java, DBMS, DSA, and Machine Learning, I am dedicated to applying these skills in innovative ways and contributing to impactful projects and teams.</p>
-      </div>
-    </section>
-    
-    <!-- Skills Section -->
-    <section id="skills" class="section-bg py-16 text-center">
-      <div class="container mx-auto px-6">
-        <h2 class="text-3xl font-bold mb-8">Skills</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <!-- Skill Cards -->
-          <!-- Existing Skill Cards are fine -->
-        </div>
-      </div>
-    </section>
-    
-    <!-- Projects Section -->
-    <section id="projects" class="section-bg py-16 text-center">
-      <div class="container mx-auto px-6">
-        <h2 class="text-3xl font-bold mb-8">Projects</h2>
-        <div id="project-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <!-- Sample Projects -->
-          <div class="bg-white p-6 rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105">
-            <h3 class="text-2xl font-semibold mb-4">Bank Management System</h3>
-            <p>A robust system in Java for managing bank operations like login, signup, PIN change, and transactions.</p>
-          </div>
-          <div class="bg-white p-6 rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105">
-            <h3 class="text-2xl font-semibold mb-4">Forest Fire Prediction</h3>
-            <p>ML-based tool in Python and Flask for predicting forest fires by analyzing Oxygen levels, temperature, and humidity.</p>
-          </div>
-          <div class="bg-white p-6 rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105">
-            <h3 class="text-2xl font-semibold mb-4">Portfolio Website</h3>
-            <p>Interactive portfolio website built with HTML, Tailwind CSS, and JavaScript.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    <!-- Education Section -->
-    <section id="education" class="section-bg py-16 text-center">
-      <div class="container mx-auto px-6">
-        <h2 class="text-3xl font-bold mb-8">Education</h2>
-        <!-- Existing Education Section is fine -->
-      </div>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Passionate about technology and innovation, I am a final-year B.E. student specializing in Computer Science Engineering. I aim to contribute to impactful projects and collaborate in dynamic teams.</p>
     </section>
 
-    <!-- Achievements & Responsibilities Section -->
-    <section id="responsibility-achievement" class="py-16 bg-indigo-50">
-      <div class="container mx-auto px-6">
-        <h2 class="text-4xl font-bold text-center mb-12">Achievements & Responsibilities</h2>
-        <div class="flex flex-wrap justify-between">
-          <!-- Responsibilities Column -->
-          <div class="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
-            <h3 class="text-3xl font-semibold mb-6 text-center lg:text-left">Positions of Responsibility</h3>
-            <ul id="responsibility-list" class="space-y-4">
-              <li>Vice President, Student Council</li>
-              <li>Treasurer, Annual College Fest</li>
-              <li>Head, Mess Committee at CCET Girls Hostel</li>
-            </ul>
-          </div>
-
-          <!-- Achievements Column -->
-          <div class="w-full lg:w-1/2 px-4">
-            <h3 class="text-3xl font-semibold mb-6 text-center lg:text-left">Achievements</h3>
-            <ul id="achievement-list" class="space-y-4">
-              <li>Second Position in Ideathon (2023)</li>
-              <li>Full-fee Scholarship under PMSSS</li>
-              <li>Scholar of Bhai Jaita Jee Foundation</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Here are some of the notable projects I have worked on:</p>
+        <!-- Add your projects here -->
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="py-16 text-center">
-      <div class="container mx-auto px-6">
-        <h2 class="text-3xl font-bold mb-8">Contact Me</h2>
-        <div class="space-y-6">
-          <div class="bg-white p-6 rounded-lg shadow-lg">
-            <h3 class="text-2xl font-semibold mb-2">LinkedIn</h3>
-            <a href="https://linkedin.com/in/ritika-saini-707055228/" class="text-blue-600 hover:underline">Linkedin Profile</a><br>
-            <a href="https://github.com/RITIKA-SAINI-786" class="text-blue-600 hover:underline">Github Repo</a>
-          </div>
-          <div class="bg-white p-6 rounded-lg shadow-lg">
-            <h3 class="text-2xl font-semibold mb-2">Email</h3>
-            <p><a href="mailto:ritikasaini112003@gmail.com" class="text-blue-600 hover:underline">ritikasaini112003@gmail.com</a></p>
-          </div>
-          <div class="bg-white p-6 rounded-lg shadow-lg">
-            <h3 class="text-2xl font-semibold mb-2">Phone</h3>
-            <p><a href="tel:+918627828501" class="text-blue-600 hover:underline">+91-8627828501</a></p>
-          </div>
+    <section id="achievements">
+        <h2>Achievements</h2>
+        
+        <div class="achievement">
+            <img src="path/to/photo-mtse.jpg" alt="National Rank Holder in MTSE" class="achievement-photo">
+            <h3>National Rank Holder in MTSE</h3>
+            <p>National Rank 8914/119537 Holder in MTSE 2017.</p>
         </div>
-      </div>
+
+        <div class="achievement">
+            <img src="path/to/photo-jnv.jpg" alt="Scholar at Jawahar Navodaya Vidyalaya" class="achievement-photo">
+            <h3>Scholar at Jawahar Navodaya Vidyalaya</h3>
+            <p>Secured admission to Jawahar Navodaya Vidyalaya (JNV) Najochak Pathankot after successfully clearing the entrance test for 6th grade. Demonstrated exceptional academic performance throughout my tenure, ranking as the top student in my class from 7th to 10th grade, with my name proudly engraved on the honor roll.</p>
+        </div>
+
+        <div class="achievement">
+            <img src="path/to/photo-bjf.jpg" alt="Scholar of Bhai Jaita Jee Foundation India" class="achievement-photo">
+            <h3>Scholar of Bhai Jaita Jee Foundation India</h3>
+            <p>Awarded prestigious scholarships from BJF India for academic excellence during 11th and 12th grades in Chandigarh, following a rigorous selection process that included a written test and two comprehensive interview rounds.</p>
+        </div>
+
+        <div class="achievement">
+            <img src="path/to/photo-college-scholarship.jpg" alt="College Level Scholarship" class="achievement-photo">
+            <h3>College Level Scholarship</h3>
+            <p>Received a full-fee scholarship for the first year of graduation at CCET College under a meritorious scheme provided by the government.</p>
+        </div>
+
+        <div class="achievement">
+            <img src="path/to/photo-ncc-a.jpg" alt="NCC Cadet with A-Certificate" class="achievement-photo">
+            <h3>NCC Cadet with A-Certificate</h3>
+            <p>Earned the NCC A Certificate after successfully passing the A Certificate Exam and completing the required camp training.</p>
+        </div>
+
+        <div class="achievement">
+            <img src="path/to/photo-ideathon.jpg" alt="Ideathon" class="achievement-photo">
+            <h3>Ideathon</h3>
+            <p>Our team INNOVATE4CHANGE achieved second place in the IDEATHON competition held at CCET College by developing an innovative game designed to motivate students to study through engaging and interactive gameplay.</p>
+        </div>
     </section>
-  </main>
+
+    <section id="positions">
+        <h2>Positions of Responsibility</h2>
+
+        <div class="position">
+            <img src="path/to/photo-vp-student-council.jpg" alt="Vice President, Student Council" class="position-photo">
+            <h3>Vice President, Student Council, CCET</h3>
+            <p>Serving as the Student Council Vice President in my college (2024 - 2025).</p>
+        </div>
+
+        <div class="position">
+            <img src="path/to/photo-treasurer-fest.jpg" alt="Treasurer, Annual College Fest" class="position-photo">
+            <h3>Treasurer, Annual College Fest (APRATIM-2K23)</h3>
+            <p>Managed financial aspects for the college fest (11/2023).</p>
+        </div>
+
+        <div class="position">
+            <img src="path/to/photo-youth-against-injustice.jpg" alt="Volunteer, Youth Against Injustice Foundation" class="position-photo">
+            <h3>Volunteer, Youth Against Injustice Foundation</h3>
+            <p>Volunteered for various social initiatives, organized online awareness sessions and campaigns.</p>
+        </div>
+
+        <div class="position">
+            <img src="path/to/photo-ncc-cadet.jpg" alt="NCC Cadet" class="position-photo">
+            <h3>NCC Cadet</h3>
+            <p>Participated in National Cadet Corps (NCC) activities and training sessions.</p>
+        </div>
+    </section>
+
+    <section id="publications">
+        <h2>Publications</h2>
+        <div class="publication">
+            <h3>Co-author of "Chaotic Watermarking for Tamper Detection"</h3>
+            <p>Published in <strong>Digital Forensics and Cyber Crime Investigation: Recent Advances and Future Directions</strong>, Routledge. 
+                <a href="https://www.routledge.com/Digital-Forensics-and-Cyber-Crime-Investigation-Recent-Advances-and-Future-Directions/AbdEl-Latif-Tawalbeh-Mohanty-Gupta-Psannis/p/book/9781032075396?srsltid=AfmBOorYcs3ixVOVz0IXI7YMOe9SplY0idzW8JIHMkwRjVa7FpTBk06Q" target="_blank">View Publication</a>
+            </p>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:ritikasaini112003@gmail.com">ritikasaini112003@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/ritika-saini-707055228/">linkedin.com/in/ritika-saini-707055228</a></p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
