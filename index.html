@@ -7,17 +7,48 @@
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <script defer src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- Font Awesome for icons -->
   <script defer src="script.js"></script>
+  <style>
+    .hero-bg {
+      background: linear-gradient(to right, #ddd049, #5258bd, #ffaf7b);
+    }
+
+    .section-bg {
+      background: #a2e9dc;
+    }
+
+    .rating {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .star {
+      font-size: 2rem;
+      color: #d1d5db; 
+      cursor: pointer;
+    }
+
+    .star.selected {
+      color: #fbbf24; 
+    }
+  </style>
 </head>
 <body class="bg-gray-100 text-gray-900">
-  <header class="bg-white shadow-md fixed w-full top-0 z-10">
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-indigo-600 to-purple-700 shadow-md fixed w-full top-0 z-10">
     <div class="container mx-auto py-4 px-6 flex justify-between items-center">
-      <h1 class="text-3xl font-bold">Ritika Saini</h1>
+      <h1 class="text-3xl font-bold text-white">Ritika Saini</h1>
       <nav>
         <ul class="flex space-x-6">
-          <li><a href="#introduction" class="hover:text-blue-500">Introduction</a></li>
-          <li><a href="#skills" class="hover:text-blue-500">Skills</a></li>
-          <li><a href="#projects" class="hover:text-blue-500">Projects</a></li>
-          <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+          <li><a href="#Introduction" class="text-white hover:text-yellow-300">Introduction</a></li>
+          <li><a href="#Skills" class="text-white hover:text-yellow-300">Skills</a></li>
+          <li><a href="#Projects" class="text-white hover:text-yellow-300">Projects</a></li>
+          <li><a href="#Education" class="text-white hover:text-yellow-300">Education</a></li>
+          <li><a href="#Achievements" class="text-white hover:text-yellow-300">Responsibility</a></li>
+          <li><a href="#Publications" class="text-white hover:text-yellow-300">Responsibility</a></li>
+          <li><a href="#Extracurricular" class="text-white hover:text-yellow-300">Responsibility</a></li>
+          <li><a href="#Contact" class="text-white hover:text-yellow-300">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -28,12 +59,12 @@
     <section id="introduction" class="my-16">
       <div class="container mx-auto px-6 text-center">
         <h2 class="text-4xl font-bold mb-4">Hello, I'm Ritika Saini</h2>
-        <p class="text-xl">I am a final-year B.E. student in Computer Science at Chandigarh College of Engineering and Technology with a CGPA of 8.33. I have hands-on experience in Machine Learning, Java, Data Structures, and Cloud Computing. My goal is to leverage my skills to build impactful, scalable solutions. Passionate about technology and learning, I’m excited about exploring new opportunities to contribute meaningfully to innovative projects.</p>
+        <p class="text-xl">I am a final-year B.E. student in Computer Science at Chandigarh College of Engineering and Technology with a CGPA of 8.53. I have hands-on experience in Machine Learning, Java, Data Structures, and Cloud Computing. My goal is to leverage my skills to build impactful, scalable solutions. Passionate about technology and learning, I’m excited about exploring new opportunities to contribute meaningfully to innovative projects.</p>
       </div>
     </section>
     
     <!-- Skills Section -->
-    <section id="skills" class="my-16 bg-gray-200 py-12">
+    <section id="Skills" class="my-16 bg-gray-200 py-12">
       <div class="container mx-auto px-6">
         <h2 class="text-3xl font-bold text-center mb-8">Skills</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -54,8 +85,8 @@
           </div>
           <div class="bg-white p-6 rounded-lg shadow-md">
             <i class="fas fa-cloud text-blue-500 text-3xl mb-4"></i>
-            <h3 class="text-2xl font-semibold mb-2">Cloud Computing</h3>
-            <p>Proficient in IBM Cloud and leveraging cloud technologies for scalable and secure web applications.</p>
+            <h3 class="text-2xl font-semibold mb-2">Python , C++</h3>
+            <p>Worked with Python in Machine Learning And knows Basics of C++</p>
           </div>
           <div class="bg-white p-6 rounded-lg shadow-md">
             <i class="fas fa-database text-blue-500 text-3xl mb-4"></i>
@@ -65,7 +96,7 @@
           <div class="bg-white p-6 rounded-lg shadow-md">
             <i class="fas fa-desktop text-blue-500 text-3xl mb-4"></i>
             <h3 class="text-2xl font-semibold mb-2">Web Development</h3>
-            <p>Proficient in HTML, CSS, JavaScript, and Flask to build interactive, responsive websites and applications.</p>
+            <p>Proficient in HTML, CSS and Flask(basics) to build interactive, responsive websites and applications.</p>
           </div>
         </div>
       </div>
