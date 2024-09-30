@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // Sample projects data
+  // Projects data
   const projects = [
     {
       title: 'MAPS USING JAVA',
@@ -42,28 +42,42 @@ document.addEventListener('DOMContentLoaded', () => {
     },
   ];
 
-  // Sample responsibilities data
+  
+ // Responsibilities data
   const responsibilities = [
     {
       title: 'Vice President, Student Council, CCET',
       description: 'Serving as the Student Council Vice President in my college (2024 - 2025).',
-      image: 'council.png',
+     image: 'council.png',
     },
     {
       title: 'Treasurer, Annual College Fest (APRATIM-2K23)',
       description: 'Managed financial aspects for the college fest (11/2023).',
       image: 'treasurer.jpg',
     },
-    
+  
     {
       title: 'Volunteer, Youth Against Injustice Foundation',
-      description: 'Volunteered for various social initiatives, organized online awareness sessions and campaigns.',
-      image: 'volunteer.jpg',
+      description: 'Led online awareness sessions and created content on menstrual health, personal safety, and good vs. bad touch.',
     },
     {
-      title: 'NCC Cadet',
+      title: 'Yoga Participation',
+      description: 'Participated in Yoga Day Event, Contributing to a World Record Achievement',
+      image: 'YOGA.jpg',
+      
+    },
+    {
+      title: ' NCC Cadet',
       description: 'Participated in National Cadet Corps (NCC) activities and training sessions.',
       image: 'NCC.jpg',
+      
+    },
+
+    {
+      title: 'POSTER MAKING COMPETITION',
+      description: 'Participated in Poster Competitions',
+      image: 'POSTER.png',
+      
     },
   ];
 
