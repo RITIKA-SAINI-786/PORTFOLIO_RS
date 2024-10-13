@@ -1,30 +1,28 @@
 document.addEventListener('DOMContentLoaded', () => {
   // Projects data
   const projects = [
-    {
-      title: 'MAPS USING JAVA',
-      description: 'The project is a Java-based mapping application using the JXMapViewer library to display and manage geographical waypoints.',
-       link: 'https://github.com/RITIKA-SAINI-786/',
-      image: 'JAVA_MAPS.jpg',
-      Video:'https://drive.google.com/file/d/1w8vyxldBBnN4i2QAiNYzYkX_OrVkNjy1/view?usp=sharing',
-     
-    },
-    {
-      title: 'Bank Management System',
-      description: 'This Bank Management System is a comprehensive Java-based application designed to manage bank operations efficiently.',
-      link: 'https://github.com/RITIKA-SAINI-786/',
-      image: 'Bank.jpg',
-      video: 'https://drive.google.com/file/d/1TKPIsTzpm2-HghS4bbPJL1xRTKKWXDan/view?usp=sharing',
-      
-    },
-    {
-      title: 'Forest Fire Prediction System',
-      description: 'A project focused on predicting forest fires using Oxygen , Temperature and Humidity level of the particular region and with skills of full-stack development.',
-       link: 'https://github.com/RITIKA-SAINI-786/',
-      image: 'Forest_Fire.png',
-      video: 'https://drive.google.com/file/d/1x9GhrzDpIDnrrKrG2jggiMidhOpB6ttG/view?usp=sharing',
-     
-    },
+  {
+    title: 'MAPS USING JAVA',
+    description: 'The project is a Java-based mapping application using the JXMapViewer library to display and manage geographical waypoints.',
+    link: 'https://github.com/RITIKA-SAINI-786/',
+    image: 'JAVA_MAPS.jpg',
+    video: 'https://drive.google.com/uc?export=download&id=1w8vyxldBBnN4i2QAiNYzYkX_OrVkNjy1', // Updated link
+  },
+  {
+    title: 'Bank Management System',
+    description: 'This Bank Management System is a comprehensive Java-based application designed to manage bank operations efficiently.',
+    link: 'https://github.com/RITIKA-SAINI-786/',
+    image: 'Bank.jpg',
+    video: 'https://drive.google.com/uc?export=download&id=1TKPIsTzpm2-HghS4bbPJL1xRTKKWXDan', // Updated link
+  },
+  {
+    title: 'Forest Fire Prediction System',
+    description: 'A project focused on predicting forest fires using Oxygen, Temperature, and Humidity levels of the particular region and with skills of full-stack development.',
+    link: 'https://github.com/RITIKA-SAINI-786/',
+    image: 'Forest_Fire.png',
+    video: 'https://drive.google.com/uc?export=download&id=1x9GhrzDpIDnrrKrG2jggiMidhOpB6ttG', // Updated link
+  },
+
     {
       title: 'Mental Fitness Tracker',
       description: 'This project focuses on tracking mental fitness using various metrics and visualizations. It aims to help users monitor their mental well-being over time through interactive charts and data analytics.',
