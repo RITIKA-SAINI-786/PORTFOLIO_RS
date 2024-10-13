@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       title: 'MAPS USING JAVA',
       description: 'The project is a Java-based mapping application using the JXMapViewer library to display and manage geographical waypoints.',
+      link: 'https://github.com/RITIKA-SAINI-786/MAPS_USING_JAVA',
       image: 'JAVA_MAPS.jpg',
       video: 'https://drive.google.com/file/d/1w8vyxldBBnN4i2QAiNYzYkX_OrVkNjy1/preview',
     },
