@@ -52,6 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       title: 'Volunteer, Youth Against Injustice Foundation',
       description: 'Led online awareness sessions and created content on menstrual health, personal safety, and good vs. bad touch.',
+      image: 'volunteer.jpg',
     },
     {
       title: 'Yoga Participation',
