@@ -4,42 +4,39 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       title: 'MAPS USING JAVA',
       description: 'The project is a Java-based mapping application using the JXMapViewer library to display and manage geographical waypoints.',
-      link: 'https://github.com/RITIKA-SAINI-786/MAPS_USING_JAVA',
+      link: 'https://github.com/RITIKA-SAINI-786/',
       image: 'JAVA_MAPS.jpg',
-      video: 'https://drive.google.com/file/d/1w8vyxldBBnN4i2QAiNYzYkX_OrVkNjy1/preview',
+      Video:'JAVA_MAPS.mp4',
     },
     {
       title: 'Bank Management System',
       description: 'This Bank Management System is a comprehensive Java-based application designed to manage bank operations efficiently.',
+      link: 'https://github.com/RITIKA-SAINI-786/',
       image: 'Bank.jpg',
-      video: 'https://drive.google.com/file/d/1TKPIsTzpm2-HghS4bbPJL1xRTKKWXDan/preview',
+      video: 'Bank_system.mp4',
     },
     {
       title: 'Forest Fire Prediction System',
-      description: 'A project focused on predicting forest fires using Oxygen, Temperature, and Humidity levels of the particular region with skills in full-stack development.',
+      description: 'A project focused on predicting forest fires using Oxygen , Temperature and Humidity level of the particular region and with skills of full-stack development.',
+      link: 'https://github.com/RITIKA-SAINI-786/',
       image: 'Forest_Fire.png',
-      video: 'https://drive.google.com/file/d/1x9GhrzDpIDnrrKrG2jggiMidhOpB6ttG/preview',
+      video: 'Screen Recording 2024-07-23 221542.mp4',
     },
     {
       title: 'Mental Fitness Tracker',
-      description: 'This project focuses on tracking mental fitness using various metrics and visualizations, helping users monitor their mental well-being over time through interactive charts and data analytics.',
+      description: 'This project focuses on tracking mental fitness using various metrics and visualizations. It aims to help users monitor their mental well-being over time through interactive charts and data analytics.',
       link: 'https://colab.research.google.com/drive/1EJTzTb8j2LfyhsICZwd366odUuATjvHx?usp=sharing',
-      image: 'compare.jpg',
+      image: 'compare.jpg'
     },
     {
       title: 'Graph Explore - Interactive DFS and BFS Visualization',
-      description: 'This project implements DFS and BFS graph traversal algorithms and visualizes the graph using NetworkX and Matplotlib, featuring an interactive UI with ipywidgets for dynamic traversal visualization.',
+      description: 'This project implements DFS and BFS graph traversal algorithms and visualizes the graph using NetworkX and Matplotlib. It features an interactive UI with ipywidgets for dynamic traversal visualization.',
       link: 'https://colab.research.google.com/drive/18iPdzklu_LgYe95M3HTQ3-FIeYdcJ30j?usp=sharing',
-      image: 'graph.jpg',
+      image: 'graph.jpg'
     },
-    {
-      title: 'Udemy Database Management System',
-      description: 'Developed a MySQL-based database for an online learning platform, managing course details, user data, transactions, and multimedia content, ensuring data integrity and efficient query performance.',
-      link: 'https://github.com/RITIKA-SAINI-786/Dumps_RS/tree/main/Dump20231012',
   ];
 
-  
- // Responsibilities data
+  // Responsibilities data
   const responsibilities = [
     {
       title: 'Vice President, Student Council, CCET',
@@ -77,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
   ];
 
-  // Sample achievements data
+  // Achievements data
   const achievements = [
     {
       title: 'Ideathon',
@@ -85,29 +82,25 @@ document.addEventListener('DOMContentLoaded', () => {
       image: 'Ideathon.jpg',
     },
     {
-      title: 'NCC Cadet with A-Certificate',
+      title: 'NCC Caded with A-Certificate',
       description: 'Earned the NCC A Certificate after successfully passing the A Certificate Exam and completing the required camp training.',
       image: 'NCC.jpg',
     },
+   
     {
       title: 'College Level Scholarship',
       description: 'Received a full-fee scholarship for the first year of graduation at CCET College under a meritorious scheme provided by the government.',
       image: 'scholarship.png',
     },
     {
-      title: 'Scholar of Bhai JaitaJee Foundation India',
+      title: 'Scholar of  Bhai JaitaJee Foundation India ',
       description: 'Awarded prestigious scholarships from BJF India for academic excellence during 11th and 12th grades in Chandigarh, following a rigorous selection process that included a written test and two comprehensive interview rounds.',
       image: 'bjf.jpg',
     },
     {
-      title: 'Scholar at Jawahar Navodaya Vidyalaya',
+      title: 'Scholar at Jawahar Navodaya Vidyalaya, operating under the direct oversight of the central government.',
       description: 'Secured admission to Jawahar Navodaya Vidyalaya (JNV) Najochak Pathankot after successfully clearing the entrance test for 6th grade. Demonstrated exceptional academic performance throughout my tenure, ranking as the top student in my class from 7th to 10th grade, with my name proudly engraved on the honor roll.',
       image: 'jnv.png',
-    },
-    {
-      title: 'National Rank Holder in MTSE',
-      description: 'National Rank 8914/119537 Holder in MTSE 2017.',
-      image: 'MTSE.png',
     },
   ];
 
@@ -129,7 +122,10 @@ document.addEventListener('DOMContentLoaded', () => {
     if (project.video) {
       projectHTML += `
         <div class="mt-4">
-          <iframe src="${project.video}" width="100%" height="315" frameborder="0" allowfullscreen></iframe>
+          <video controls class="w-full rounded-md">
+            <source src="${project.video}" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
         </div>
       `;
     }
