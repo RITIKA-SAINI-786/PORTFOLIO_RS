@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
       description: 'The project is a Java-based mapping application using the JXMapViewer library to display and manage geographical waypoints.',
        link: 'https://github.com/RITIKA-SAINI-786/',
       image: 'JAVA_MAPS.jpg',
-      Video:'https://drive.google.com/file/d/1w8vyxldBBnN4i2QAiNYzYkX_OrVkNjy1/view?usp=drive_link',
+      Video:'https://drive.google.com/file/d/1w8vyxldBBnN4i2QAiNYzYkX_OrVkNjy1/view?usp=sharing',
      
     },
     {
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
       description: 'This Bank Management System is a comprehensive Java-based application designed to manage bank operations efficiently.',
       link: 'https://github.com/RITIKA-SAINI-786/',
       image: 'Bank.jpg',
-      video: 'https://drive.google.com/file/d/13l5y9prEtCD7pLTR7ryfFkWbhirX4t7l/view?usp=drive_link',
+      video: 'https://drive.google.com/file/d/1TKPIsTzpm2-HghS4bbPJL1xRTKKWXDan/view?usp=sharing',
       
     },
     {
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
       description: 'A project focused on predicting forest fires using Oxygen , Temperature and Humidity level of the particular region and with skills of full-stack development.',
        link: 'https://github.com/RITIKA-SAINI-786/',
       image: 'Forest_Fire.png',
-      video: 'https://drive.google.com/file/d/1x9GhrzDpIDnrrKrG2jggiMidhOpB6ttG/view?usp=drive_link',
+      video: 'https://drive.google.com/file/d/1x9GhrzDpIDnrrKrG2jggiMidhOpB6ttG/view?usp=sharing',
      
     },
     {
