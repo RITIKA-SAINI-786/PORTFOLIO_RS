@@ -11,14 +11,12 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       title: 'Bank Management System',
       description: 'This Bank Management System is a comprehensive Java-based application designed to manage bank operations efficiently.',
-      link: 'https://github.com/RITIKA-SAINI-786/BANK_MANAGEMENT_SYSTEM',
       image: 'Bank.jpg',
       video: 'https://drive.google.com/file/d/1TKPIsTzpm2-HghS4bbPJL1xRTKKWXDan/preview',
     },
     {
       title: 'Forest Fire Prediction System',
       description: 'A project focused on predicting forest fires using Oxygen, Temperature, and Humidity levels of the particular region with skills in full-stack development.',
-      link: 'https://github.com/RITIKA-SAINI-786/Forest_Fire_Prediction_System',
       image: 'Forest_Fire.png',
       video: 'https://drive.google.com/file/d/1x9GhrzDpIDnrrKrG2jggiMidhOpB6ttG/preview',
     },
@@ -38,8 +36,6 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Udemy Database Management System',
       description: 'Developed a MySQL-based database for an online learning platform, managing course details, user data, transactions, and multimedia content, ensuring data integrity and efficient query performance.',
       link: 'https://github.com/RITIKA-SAINI-786/Dumps_RS/tree/main/Dump20231012',
-      image: 'dumps.png',
-    },
   ];
 
   
