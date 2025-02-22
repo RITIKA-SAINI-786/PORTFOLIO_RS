@@ -37,6 +37,11 @@ document.addEventListener('DOMContentLoaded', () => {
       description: 'Serving as the Student Council Vice President in my college (2024 - 2025).',
      image: 'council.png',
     },
+     {
+      title: 'Co - convenor , Annual College Fest (APRATIM-2K23)',
+      description: 'Organized and managed APRATIM-2K24, the annual college fest, overseeing event planning, coordination, and execution.',
+     image: 'CO.jpg',
+    },
     {
       title: 'Treasurer, Annual College Fest (APRATIM-2K23)',
       description: 'Managed financial aspects for the college fest (11/2023).',
@@ -109,7 +114,6 @@ document.addEventListener('DOMContentLoaded', () => {
     let projectHTML = `
       <img src="${project.image}" alt="${project.title}" class="mb-4 rounded-md object-cover h-48 w-full">
       <h3 class="text-2xl font-bold mb-2">${project.title}</h3>
-      <p class="mb-4">${project.description}</p>
     `;
 
     // Add video if it exists
