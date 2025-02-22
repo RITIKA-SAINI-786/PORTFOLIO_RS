@@ -53,12 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
       description: 'Led online awareness sessions and created content on menstrual health, personal safety, and good vs. bad touch.',
       image: 'volunteer.jpg',
     },
-    {
-      title: 'Yoga Participation',
-      description: 'Participated in Yoga Day Event, Contributing to a World Record Achievement',
-      image: 'YOGA.jpg',
-      
-    },
+   
     {
       title: ' NCC Cadet',
       description: 'Participated in National Cadet Corps (NCC) activities and training sessions.',
@@ -102,6 +97,12 @@ document.addEventListener('DOMContentLoaded', () => {
       description: 'Secured admission to Jawahar Navodaya Vidyalaya (JNV) Najochak Pathankot after successfully clearing the entrance test for 6th grade. Demonstrated exceptional academic performance throughout my tenure, ranking as the top student in my class from 7th to 10th grade, with my name proudly engraved on the honor roll.',
       image: 'jnv.png',
     },
+     {
+      title: 'Yoga Participation',
+      description: 'Participated in Yoga Day Event, Contributing to a World Record Achievement',
+      image: 'YOGA.jpg',
+      
+    },
   ];
 
   // Load projects dynamically
@@ -114,6 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let projectHTML = `
       <img src="${project.image}" alt="${project.title}" class="mb-4 rounded-md object-cover h-48 w-full">
       <h3 class="text-2xl font-bold mb-2">${project.title}</h3>
+      <p class="mb-4">${project.description}</p>
     `;
 
     // Add video if it exists
