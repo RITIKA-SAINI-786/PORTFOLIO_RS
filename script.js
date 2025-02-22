@@ -6,33 +6,27 @@ document.addEventListener('DOMContentLoaded', () => {
     description: 'The project is a Java-based mapping application using the JXMapViewer library to display and manage geographical waypoints.',
     link: 'https://github.com/RITIKA-SAINI-786/',
     image: 'JAVA_MAPS.jpg',
-    video: 'https://drive.google.com/uc?export=download&id=1w8vyxldBBnN4i2QAiNYzYkX_OrVkNjy1', // Updated link
+   
   },
   {
     title: 'Bank Management System',
     description: 'This Bank Management System is a comprehensive Java-based application designed to manage bank operations efficiently.',
-    link: 'https://github.com/RITIKA-SAINI-786/',
     image: 'Bank.jpg',
-    video: 'https://drive.google.com/uc?export=download&id=1TKPIsTzpm2-HghS4bbPJL1xRTKKWXDan', // Updated link
   },
   {
     title: 'Forest Fire Prediction System',
     description: 'A project focused on predicting forest fires using Oxygen, Temperature, and Humidity levels of the particular region and with skills of full-stack development.',
-    link: 'https://github.com/RITIKA-SAINI-786/',
     image: 'Forest_Fire.png',
-    video: 'https://drive.google.com/uc?export=download&id=1x9GhrzDpIDnrrKrG2jggiMidhOpB6ttG', // Updated link
   },
 
     {
       title: 'Mental Fitness Tracker',
       description: 'This project focuses on tracking mental fitness using various metrics and visualizations. It aims to help users monitor their mental well-being over time through interactive charts and data analytics.',
-      link: 'https://colab.research.google.com/drive/1EJTzTb8j2LfyhsICZwd366odUuATjvHx?usp=sharing',
       image: 'compare.jpg'
     },
     {
       title: 'Graph Explore - Interactive DFS and BFS Visualization',
       description: 'This project implements DFS and BFS graph traversal algorithms and visualizes the graph using NetworkX and Matplotlib. It features an interactive UI with ipywidgets for dynamic traversal visualization.',
-      link: 'https://colab.research.google.com/drive/18iPdzklu_LgYe95M3HTQ3-FIeYdcJ30j?usp=sharing',
       image: 'graph.jpg'
     },
   ];
