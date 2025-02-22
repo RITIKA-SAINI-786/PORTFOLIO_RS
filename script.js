@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
   {
     title: 'MAPS USING JAVA',
     description: 'The project is a Java-based mapping application using the JXMapViewer library to display and manage geographical waypoints.',
-    link: 'https://github.com/RITIKA-SAINI-786/',
     image: 'JAVA_MAPS.jpg',
    
   },
@@ -111,7 +110,6 @@ document.addEventListener('DOMContentLoaded', () => {
       <img src="${project.image}" alt="${project.title}" class="mb-4 rounded-md object-cover h-48 w-full">
       <h3 class="text-2xl font-bold mb-2">${project.title}</h3>
       <p class="mb-4">${project.description}</p>
-      <a href="${project.link}" class="text-indigo-600 underline hover:text-indigo-800">View Project</a>
     `;
 
     // Add video if it exists
